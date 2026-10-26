@@ -1,0 +1,15 @@
+name: AdiXtreamIOS
+options:
+  bundleIdPrefix: com.adixtream
+  deploymentTarget:
+    iOS: "17.0"
+targets:
+  AdiXtreamIOS:
+    type: application
+    platform: iOS
+    sources: [AdiXtreamIOS]
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.adixtream.app.ios
+        INFOPLIST_KEY_UILaunchStoryboardName: ""
+        SWIFT_VERSION: "5.0"
