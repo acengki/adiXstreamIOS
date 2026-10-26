@@ -8,8 +8,23 @@ targets:
     type: application
     platform: iOS
     sources: [AdiXtreamIOS]
+    info:
+      path: AdiXtreamIOS/Info.plist
+      properties:
+        CFBundleDisplayName: AdiXtream
+        UILaunchScreen: {}
+        UISupportedInterfaceOrientations:
+          - UIInterfaceOrientationPortrait
+          - UIInterfaceOrientationLandscapeLeft
+          - UIInterfaceOrientationLandscapeRight
+        "UISupportedInterfaceOrientations~ipad":
+          - UIInterfaceOrientationPortrait
+          - UIInterfaceOrientationPortraitUpsideDown
+          - UIInterfaceOrientationLandscapeLeft
+          - UIInterfaceOrientationLandscapeRight
     settings:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: com.adixtream.app.ios
-        INFOPLIST_KEY_UILaunchStoryboardName: ""
+        MARKETING_VERSION: "1.0"
+        CURRENT_PROJECT_VERSION: "1"
         SWIFT_VERSION: "5.0"
